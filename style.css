@@ -100,6 +100,9 @@ button:hover {
 .op{
     font-weight: bold;
 }
-
-
-
+.nav-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+}
