@@ -1,0 +1,105 @@
+body{
+    background-color: azure;
+}
+#nav{
+    background-color: black;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    
+}
+
+#img{
+    padding: 5px;
+}
+p{
+    
+    color:white;
+     
+}
+
+#select{
+    width:40px;
+    height: 35px;
+
+}
+
+#searchbar{
+      height: 33px;
+      border: none;
+      width: 500px;
+      
+}
+#searchBtn{
+       background: gold;
+      border: none;
+      width:40px ;
+      color: #1e3b2e;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.2s;
+      
+      
+      gap: 5px;
+      font-size: 0.85rem;
+}
+button:hover {
+      background: #e6c68a;
+      transform: scale(0.97);
+    }
+#search{
+    display: flex;
+    flex-direction: row;
+     
+}
+
+.language{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+#lng-select{
+    border: none;
+    width: 15px;
+    height: 11px;
+    background-color: black;
+    color: white;
+    padding-top:5px;
+}
+#en{
+    color: white;
+    padding-left: 5px;
+}
+.sign{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap:0;
+}
+
+.sign span{
+     margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+.hello{
+    font-size: small;
+}
+
+#sel{
+    border: none;
+    width: 15px;
+    height: 11px;
+    background-color: black;
+    color: white;
+    padding-top:5px;
+}
+
+.op{
+    font-weight: bold;
+}
+
+
+
