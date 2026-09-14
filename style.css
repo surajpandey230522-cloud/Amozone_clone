@@ -88,7 +88,7 @@ button:hover {
     font-size: small;
 }
 
-#sel{
+.sel{
     border: none;
     width: 15px;
     height: 11px;
@@ -100,9 +100,41 @@ button:hover {
 .op{
     font-weight: bold;
 }
-.nav-ul{
-    list-style: none;
+
+.nav-ul  {
+   
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-evenly;
+    background-color: rgb(46, 49, 53);
+    color: white;
+    height: 30px;
+    align-items: center;
+}
+.box{
+    text-decoration: none;
+    color: white;
+
+}
+
+.box:hover{
+  
+    cursor: pointer;
+     border: 2px solid white;
+}
+
+#prime{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+#head{
+    background-color: rgb(46, 49, 53);
+}
+
+
+.hover-btn:hover{
+
+    cursor: pointer;
+     border: 2px solid white;
 }
