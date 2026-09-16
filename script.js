@@ -5,12 +5,12 @@ const prev = document.getElementById("prev");
 
 let index = 0;
 
-const cardWidth = 400;
+const cardWidth = 100;
 
 next.addEventListener("click", function () {
-
-    index++;
-    
+ 
+    if(index<3)
+      index++;
 
     sliderTrack.style.transform =
         `translateX(-${index * cardWidth}px)`;
@@ -23,9 +23,8 @@ prev.addEventListener("click", function () {
     index--;
 
     if (index < 0) {
-        index = sliderTrack-1;
+       index=0;
     }
-
     sliderTrack.style.transform =
         `translateX(-${index * cardWidth}px)`;
 
