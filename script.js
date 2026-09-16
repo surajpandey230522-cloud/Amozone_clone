@@ -1,28 +1,32 @@
-let currentSlide = 0;
+const sliderTrack = document.getElementById("sliderTrack");
 
-const slides = document.querySelector(".slides");
-const totalSlides = document.querySelectorAll(".slides img").length;
+const next = document.getElementById("next");
+const prev = document.getElementById("prev");
 
-function nextSlide() {
+let index = 0;
 
-    currentSlide++;
+const cardWidth = 400;
 
-    if (currentSlide >= totalSlides) {
-        currentSlide = 0;
+next.addEventListener("click", function () {
+
+    index++;
+    
+
+    sliderTrack.style.transform =
+        `translateX(-${index * cardWidth}px)`;
+
+});
+
+
+prev.addEventListener("click", function () {
+
+    index--;
+
+    if (index < 0) {
+        index = sliderTrack-1;
     }
 
-    slides.style.transform =
-        `translateX(-${currentSlide * 100}%)`;
-}
+    sliderTrack.style.transform =
+        `translateX(-${index * cardWidth}px)`;
 
-function prevSlide() {
-
-    currentSlide--;
-
-    if (currentSlide < 0) {
-        currentSlide = totalSlides - 1;
-    }
-
-    slides.style.transform =
-        `translateX(-${currentSlide * 100}%)`;
-}
+});

@@ -27,9 +27,10 @@
         <option value="Electronic">Electronic</option>
         <option value="Farniture">Farniture</option>
         <option value="Cloth">Cloth</option>
+            </select>
         <input type="text" id="searchbar" placeholder="Search Amazon.in">
-        <button id="searchBtn"><i class="fas fa-search"  aria-label="Search"></i> Go</button>
-      </select>
+        <button id="searchBtn"><i class="fas fa-search"  aria-label="Search"></i>Go</button>
+  
       
         </span>
 <!-- ...................................................... -->
@@ -177,16 +178,45 @@
 
 </div>
 
-<div class="slider">
-    <div class="slides">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWFHm-qrlWv8pnvttIZEvS2pt8e5UNCK0r8MRNChnCZ2aPCPdYS779AUAR&s=10" alt="Image 1">
-        <img src="https://www.ecomengine.com/hs-fs/hubfs/images/screenshots/amazon/product-photo-lifestyle-mascara.jpg?width=600&name=product-photo-lifestyle-mascara.jpg" alt="Image 2">
-        <img src="https://sourcingnova.com/wp-content/uploads/2021/06/amazon-image-requirements.png" alt="Image 3">
-    </div>
 
-    <button class="prev" onclick="prevSlide()">❮</button>
-    <button class="next" onclick="nextSlide()">❯</button>
-</div>
+    <div class="slider-container">
+
+        <div class="slider-track" id="sliderTrack">
+
+            <div class="card">
+                <img src="https://www.junglescout.com/wp-content/uploads/2023/12/js-blog_amazon-product-images_hero-img.png" alt="">
+            </div>
+
+            <div class="card">
+                <img src="https://cdn.prod.website-files.com/6259dbda09b4668cb5db62c2/67684ab077cb968e98eb1d12_665270dace891f93e3294842_Amazon-Main-Product-Image-Examples.webp" alt="">
+            </div>
+
+            <div class="card">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/nbd-just-the-ultimate-list-of-80-amazon-must-haves-to-shop-asap-66902d51b3786.jpg?crop=0.505xw:1.00xh;0.194xw,0&resize=640:*" alt="">
+            </div>
+
+            <div class="card">
+                <img src="https://www.shiprocket.in/wp-content/uploads/2023/04/image-39.png" alt="">
+            </div>
+
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7JVqjkvcBL7WqgqezuSP2e309Fg6xbTSMPPqKku2v43xJpEo5kHDuYpM&s=10" alt="">
+            </div>
+
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6a_KNOplLoHdFTxNfKBGqp5WHS-mUc37cAOyCwyEt058IZSYoO8vGLWHv&s=10" alt="">
+            </div>
+
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6N9-U5q8fj52cZ7d_iCFTojaaMyPQECHk80Gv29s_aAEG8FhCgp1vopc&s=10" alt="">
+            </div>
+
+        </div>
+
+        <button class="next" id="next">❯</button>
+        <button class="prev" id="prev">❮</button>
+
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
