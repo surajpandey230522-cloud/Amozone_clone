@@ -5,7 +5,7 @@ const prev = document.getElementById("prev");
 
 let index = 0;
 
-const cardWidth = 100;
+const cardWidth = 500;
 
 next.addEventListener("click", function () {
  
