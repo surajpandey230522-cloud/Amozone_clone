@@ -232,7 +232,8 @@ body {
 
 .header{
     display: flex;
-    text-align: center;
+    
+    justify-content: space-between;
 }
 .header h2{
     font-size:larger;
