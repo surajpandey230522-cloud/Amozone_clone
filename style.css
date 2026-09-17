@@ -215,15 +215,58 @@ body {
 #container-product{
     display: flex;
     flex-direction: row;
-    height: 500px;
+    height: 550px;
   
 
 }
 .box1{
-    height: 450px;
-    width: 354px;
+    height: 493px;
+    width: 340px;
     border: none;
     border-radius: 0.30rem;
     margin: 8px;
     box-shadow:0 5px 10px rgba(1, 1, 1, 0.2); 
+    padding: 12px;
+}
+
+
+.header{
+    display: flex;
+    text-align: center;
+}
+.header h2{
+    font-size:larger;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 42px;
+}
+
+.card1{
+    width: 140px;
+    height: 203px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: .50rem;
+}
+
+.card1 img{
+    width: 140px;
+    height: 156px;
+    object-fit: cover;
+    border-radius: .50rem;
+    display: block;
+
+}
+
+.card1 p{
+    color: black;
+    font-size: small;
+}
+
+.card1:hover{
+    box-shadow: 2px 2px 5px black;
 }
