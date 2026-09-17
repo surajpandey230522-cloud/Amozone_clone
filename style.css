@@ -173,6 +173,7 @@ body {
     overflow: hidden;
     flex-shrink: 0;
     box-shadow:0 5px 10px rgba(1, 1, 1, 0.2); 
+    cursor: pointer;
 }
 
 /* Image inside card */
@@ -252,12 +253,13 @@ body {
     overflow: hidden;
     text-align: center;
     border-radius: .50rem;
+    cursor: pointer;
 }
 
 .card1 img{
     width: 140px;
     height: 156px;
-    object-fit: cover;
+    object-fit: fill;
     border-radius: .50rem;
     display: block;
 
