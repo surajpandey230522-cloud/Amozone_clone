@@ -294,7 +294,7 @@ body {
 }
 
 .Footer{
-    height: 500px;
+    height: 300px;
     background-color: rgb(42, 42, 76);
 }
 button a {
@@ -313,4 +313,25 @@ button a {
      font-weight: bold;
      color: #eee;
      
+}
+
+.product-list{
+    font-size:small ;
+    list-style: none;
+    font-weight: lighter
+}
+
+.head-footer{
+
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-selector{
+    border: 2px solid black;
+    height: 150px;
+    width: 300px;
 }
